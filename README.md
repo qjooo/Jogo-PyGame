@@ -1,6 +1,6 @@
 
 
-**Uma sátira às idiossincrasias da política brasileira, desenvolvida como trabalho escolar**
+## **Uma sátira às idiossincrasias da política brasileira, desenvolvida como trabalho escolar**
 
 ## Descrição  
 Foi algo que fiz quando comecei a usar Python como minha linguagem principal. Gostei da linguagem e decidi fazer esse jogo. Não foi algo direcionado para um lado político específico, e sim uma brincadeira sobre a podridão da política no Brasil.
