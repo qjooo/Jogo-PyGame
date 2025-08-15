@@ -21,5 +21,5 @@ Foi algo que fiz quando comecei a usar Python como minha linguagem principal. Go
 
 ## Licença / Créditos  
 – Trabalho escolar criado por **Luiz H** –  
-Agradecimentos a **Valdinei**, Code Dare (YouTube) [Code Dare](https://youtu.be/mNjcrarT3Io)
+Agradecimentos a **Valdinei** (professor orientador), [Code Dare](https://youtu.be/mNjcrarT3Io) (YouTube)
 
