@@ -34,7 +34,7 @@ pos_y_missil = 400
 
 triggered = False
 
-pontos = 1
+pontos = 5
 
 
 rodando = True
@@ -61,7 +61,7 @@ def respawn_missil():
 def colisions():
     global pontos, pos_alien_x, pos_alien_y
     if player_rect.colliderect(alien_rect):
-        pontos -= 1
+        pontos -= 5
         pos_alien_x, pos_alien_y = respawn()
         return False  # Não "matou" com míssil, só colidiu
     elif missil_rect.colliderect(alien_rect):
@@ -91,8 +91,6 @@ while rodando:
     screen.blit(score, (50,50))
 
 
-    
-
 # teclas
 
     tecla = pygame.key.get_pressed()
@@ -114,10 +112,8 @@ while rodando:
         triggered = True
         vel_x_missil = 2
 
-    if pontos == -1:
+    if pontos <= -1:
         rodando = False
-
-
 
 
 # Respawn
